@@ -9,6 +9,7 @@ public class Car extends Vehicle {
     private boolean isManual;
     private int currentGear;
     private int seats;
+
     public int getWheels() {
         return wheels;
     }
