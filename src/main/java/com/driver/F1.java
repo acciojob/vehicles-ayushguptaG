@@ -44,7 +44,7 @@ public class F1 extends Car {
         else this.changeGear(6);
 
         if(newSpeed > 0) {
-            changeSpeed(newSpeed, super.getCurrentDirection());
+            changeSpeed(newSpeed, getCurrentDirection());
         }
     }
 }
